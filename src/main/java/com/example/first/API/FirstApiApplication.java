@@ -1,14 +1,15 @@
-package com.ecommerce.microcommerce;
+package com.example.first.API;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
-@SpringBootApplication
 @EnableSwagger2
-public class MicrocommerceApplication {
+@SpringBootApplication
+public class FirstApiApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(MicrocommerceApplication.class, args);
+		SpringApplication.run(FirstApiApplication.class, args);
 	}
+
 }
